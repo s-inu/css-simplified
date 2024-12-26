@@ -30,6 +30,7 @@
     "plugins": [
       "prettier-plugin-tailwindcss",
       "prettier-plugin-classnames",
+      "prettier-plugin-css-order",
       "prettier-plugin-merge"
     ],
     "printWidth": 80,

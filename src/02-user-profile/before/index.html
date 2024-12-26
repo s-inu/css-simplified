@@ -1,46 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>User Profile</title>
+    <link rel="stylesheet" href="../../output.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>User Profile</title>
-  <link rel="stylesheet" href="../../output.css">
-</head>
+  <body
+    class="font-['Times_New_Roman'] leading-[1.2] [&_h2]:font-['Arial']
+      [&_h2]:text-[1.5rem] [&_h2]:font-bold [&_ol]:list-inside
+      [&_ol]:list-decimal [&_ul]:list-inside [&_ul]:list-disc"
+  >
+    <header class="my-4">
+      <h1 class="text-center text-[2rem] font-bold">Kyle Cook</h1>
+    </header>
+    <main
+      class="[&_ul>li:first-child]:text-[#00FFFF]]
+        [&>:nth-child(2n+1)]:bg-[#008000] [&>:nth-child(2n+1)]:text-white
+        [&_ol>li:first-child]:text-[#00FFFF] [&_section]:mx-2
+        [&_ol]:m-[1rem_10rem_10rem_10rem]
+        "
+    >
+      <section>
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Weight Lifting</li>
+          <li>Bowling</li>
+          <li>Music</li>
+        </ul>
+      </section>
 
-<body>
-  <header>
-    <h1 class="text-center text-4xl font-[Arial]">Kyle Cook</h1>
-  </header>
-  <main>
-    <section class="bg-[#337e22]">
-      <h2 class="font-bold text-white">Hobbies</h2>
-      <ul>
-        <li>Weight Lifting</li>
-        <li>Bowling</li>
-        <li>Music</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Favorite Bands</h2>
-      <ol>
-        <li>Seventh Wonder</li>
-        <li>Ne Obliviscaris</li>
-        <li>Be'lakor</li>
-        <li>Opeth</li>
-        <li>Katy Perry</li>
-      </ol>
-    </section>
-    <section>
-      <h2>Favorite Languages</h2>
-      <ol>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Ruby</li>
-      </ol>
-    </section>
-  </main>
-</body>
+      <section>
+        <h2>Favorite Bands</h2>
+        <ol>
+          <li>Seventh Wonder</li>
+          <li>Ne Obliviscaris</li>
+          <li>Be'lakor</li>
+          <li>Opeth</li>
+          <li class="line-through">Katy Perry</li>
+        </ol>
+      </section>
 
+      <section>
+        <h2>Favorite Languages</h2>
+        <ol>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Ruby</li>
+        </ol>
+      </section>
+    </main>
+  </body>
 </html>

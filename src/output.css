@@ -554,27 +554,34 @@ video {
   display: none;
 }
 
+.m-\[10_10_10_10\] {
+  margin: 10 10 10 10;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .hidden {
   display: none;
 }
 
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
-}
-
-.bg-green-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(21 128 61 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#337e22\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 126 34 / var(--tw-bg-opacity, 1));
-}
-
 .text-center {
   text-align: center;
+}
+
+.font-\[\'Arial\'\] {
+  font-family: 'Arial';
+}
+
+.font-\[\'Times_New_Roman\'\] {
+  font-family: 'Times New Roman';
 }
 
 .font-sans {
@@ -585,8 +592,12 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.font-\[Arial\] {
-  font-family: Arial;
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
 }
 
 .text-sm {
@@ -594,39 +605,96 @@ video {
   line-height: 1.25rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
-.text-red-50 {
-  --tw-text-opacity: 1;
-  color: rgb(254 242 242 / var(--tw-text-opacity, 1));
+.leading-\[1\.2\] {
+  line-height: 1.2;
 }
 
-.text-\[Arial\] {
-  color: Arial;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+.line-through {
+  text-decoration-line: line-through;
 }
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.\[\&\>\:nth-child\(2n\+1\)\>\:first-child\]\:text-white>:nth-child(2n+1)>:first-child {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.\[\&\>\:nth-child\(2n\+1\)\]\:bg-\[\#008000\]>:nth-child(2n+1) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 128 0 / var(--tw-bg-opacity, 1));
+}
+
+.\[\&\>\:nth-child\(2n\+1\)\]\:text-white>:nth-child(2n+1) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.\[\&_h2\]\:font-\[\'Arial\'\] h2 {
+  font-family: 'Arial';
+}
+
+.\[\&_h2\]\:text-\[1\.5rem\] h2 {
+  font-size: 1.5rem;
+}
+
+.\[\&_h2\]\:font-bold h2 {
+  font-weight: 700;
+}
+
+.\[\&_ol\>li\:first-child\]\:text-\[\#00FFFF\] ol>li:first-child {
+  --tw-text-opacity: 1;
+  color: rgb(0 255 255 / var(--tw-text-opacity, 1));
+}
+
+.\[\&_ol\]\:m-\[10_10_10_10\] ol {
+  margin: 10 10 10 10;
+}
+
+.\[\&_ol\]\:m-\[1rem_10rem_10rem_10rem\] ol {
+  margin: 1rem 10rem 10rem 10rem;
+}
+
+.\[\&_ol\]\:list-inside ol {
+  list-style-position: inside;
+}
+
+.\[\&_ol\]\:list-decimal ol {
+  list-style-type: decimal;
+}
+
+.\[\&_section\]\:mx-2 section {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.\[\&_section_ol\]\:m-\[0_\] section ol {
+  margin: 0;
+}
+
+.\[\&_section_ol\]\:m-\[10_0_0_0\] section ol {
+  margin: 10 0 0 0;
+}
+
+.\[\&_section_ol\]\:m-\[10_10_10_10\] section ol {
+  margin: 10 10 10 10;
+}
+
+.\[\&_ul\>li\:first-child\]\:text-\[\#00FFFF\] ul>li:first-child {
+  --tw-text-opacity: 1;
+  color: rgb(0 255 255 / var(--tw-text-opacity, 1));
+}
+
+.\[\&_ul\]\:list-inside ul {
+  list-style-position: inside;
+}
+
+.\[\&_ul\]\:list-disc ul {
+  list-style-type: disc;
 }

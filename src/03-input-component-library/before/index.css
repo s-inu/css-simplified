@@ -1,0 +1,38 @@
+input {
+  border-radius: 3px;
+  border-width: 1px;
+  padding: 0.5em;
+  font-size: medium;
+  margin: ;
+  &:focus-visible {
+    outline: none;
+  }
+
+  --success-color: green;
+  --error-color: red;
+}
+
+input[value="Success"] {
+  border: 1px solid var(--success-color);
+  &:focus-visible {
+    box-shadow: 0px 0px 1px 1px var(--success-color);
+  }
+}
+
+input[value="Error"] {
+  border: 1px solid red;
+}
+
+input[value="Large"] {
+  font-size: large;
+}
+
+input[value="Small"] {
+  font-size: small;
+}
+
+input:disabled {
+  &:hover {
+    cursor: not-allowed;
+  }
+}

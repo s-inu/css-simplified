@@ -1,20 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Navbar</title>
-</head>
-<body>
-  <nav>
-    <span>Brand Name</span>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Pricing</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="../../output.css" />
+  </head>
+  <body>
+    <nav class="flex bg-[hsl(0,0%,15%)] font-['Times_New_Roman'] text-white">
+      <span class="mr-auto p-2">Brand Name</span>
+      <ul class="flex *:cursor-pointer *:p-2 [&>*:hover]:bg-[hsl(0,0%,30%)]">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </body>
 </html>

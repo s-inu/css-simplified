@@ -1,0 +1,357 @@
+{
+  "[ahk]": {
+    "editor.defaultFormatter": "cweijan.vscode-autohotkey-plus"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnType": true
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "shakram02.bash-beautify"
+  },
+
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "ms-mssql.mssql"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "bookmarks.saveBookmarksInProject": true,
+  "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.numSuggestions": 4,
+  "cSpell.userWords": ["expertises"],
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "ahk": "autohotkey",
+    "applescript": "osascript",
+    "autoit": "autoit3",
+    "bat": "cmd /c",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "clojure": "lein exec",
+    "coffeescript": "coffee",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "crystal": "crystal",
+    "csharp": "cd $dir && dotnet run $fileName",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "dart": "dart",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fsharp": "fsi",
+    "go": "go run",
+    "groovy": "groovy",
+    "haskell": "runghc",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "javascript": "node",
+    "julia": "julia",
+    "kit": "kitc --run",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "lisp": "sbcl --script",
+    "lua": "lua",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "ocaml": "ocaml",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "perl": "perl",
+    "perl6": "perl6",
+    "php": "php",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "python": "python -u",
+    "r": "Rscript",
+    "racket": "racket",
+    "ruby": "ruby",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "sass": "sass --style expanded",
+    "scala": "scala",
+    "scheme": "csi -script",
+    "scss": "scss --style expanded",
+    "shellscript": "bash",
+    "sml": "cd $dir && sml $fileName",
+    "swift": "swift",
+    "typescript": "tsx",
+    "v": "v run",
+    "vbscript": "cscript //Nologo",
+    "zig": "zig run"
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "codesnap-plus.realLineNumbers": true,
+  "codesnap-plus.showWindowControls": false,
+  "codesnap-plus.showWindowTitle": true,
+  "codesnap-plus.shutterAction": "copy",
+  "codesnap-plus.toolMode": "simple",
+  "csharp.debug.justMyCode": false,
+  "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+  "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
+  "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
+  "csharp.inlayHints.enableInlayHintsForTypes": true,
+  "debugpy.debugJustMyCode": false,
+  "diffEditor.renderSideBySide": false,
+  "dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
+  "dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
+  "dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+  "dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+  "dotnet.inlayHints.enableInlayHintsForParameters": true,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "\"Fira Code\"",
+  "editor.fontLigatures": true,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": true,
+  "editor.scrollbar.verticalScrollbarSize": 20,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.useInlineCompletions": true,
+  "everforest.darkContrast": "soft",
+  "everforest.darkSelection": "red",
+  "everforest.darkWorkbench": "flat",
+  "everforest.italicComments": false,
+  "everforest.lightSelection": "green",
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "files.watcherExclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "git-graph.graph.style": "angular",
+  "git-graph.repository.commits.fetchAvatars": true,
+  "git-graph.repository.commits.mute.commitsThatAreNotAncestorsOfHead": true,
+  "git-graph.retainContextWhenHidden": false,
+  "git.autofetch": true,
+  "gitblame.inlineMessageEnabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "githubPullRequests.pullBranch": "never",
+  "glassit.alpha": 250,
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "html-css-class-completion.enableEmmetSupport": true,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "inlineFold.regex": "(class|className)=[`'{\\\"]([^`'\\\"}]{30,})[`'\\\"}]",
+  "inlineFold.regexFlags": "g",
+  "inlineFold.regexGroup": "2",
+  "inlineFold.unfoldOnLineSelect": true,
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "jupyter.debugJustMyCode": false,
+  "jupyter.exportWithOutputEnabled": true,
+  "jupyter.showVariableViewWhenDebugging": true,
+  "leetcode.defaultLanguage": "javascript",
+  "leetcode.hint.commentDescription": false,
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.workspaceFolder": "C:\\Users\\sam\\.leetcode",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "mssql.connections": [
+    {
+      "server": "DESKTOP-7QCNJ4B",
+      "database": "",
+      "authenticationType": "Integrated",
+      "profileName": "local",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "user": "",
+      "password": "",
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql"
+    }
+  ],
+  "mssql.enableRichExperiences": true,
+  "mssql.format.datatypeCasing": "uppercase",
+  "mssql.format.keywordCasing": "uppercase",
+  "notebook.cellToolbarLocation": {
+    "default": "left"
+  },
+  "notebook.lineNumbers": "on",
+  "notebook.output.scrolling": true,
+  "notebook.output.wordWrap": true,
+  "omnisharp.organizeImportsOnFormat": true,
+  "prettier.enableDebugLogs": true,
+  "python.analysis.inlayHints.callArgumentNames": "all",
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "redhat.telemetry.enabled": true,
+  "remote.SSH.remotePlatform": {
+    "34.145.177.108": "linux",
+    "Vultr-NJ": "linux",
+    "3.22.240.238": "linux",
+    "3.142.143.106": "linux",
+    "18.188.142.70": "linux",
+    "Frantech": "linux"
+  },
+  "scm.alwaysShowActions": true,
+  "scm.alwaysShowRepositories": true,
+  "scm.defaultViewMode": "tree",
+  "tailwindCSS.emmetCompletions": true,
+  "template-string-converter.addBracketsToProps": true,
+  "template-string-converter.autoRemoveTemplateString": true,
+  "template-string-converter.convertOutermostQuotes": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.env.windows": {},
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.includeFileNameAndLineNum": true,
+  "typeChallenges.workspaceFolder": "/Users/samcheang/.typeChallenges",
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.foldfix": true,
+  "vim.handleKeys": {
+    "<C-p>": false
+  },
+  "vim.highlightedyank.enable": true,
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [],
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["c", "l", "g"],
+      "commands": ["turboConsoleLog.displayLogMessage"]
+    },
+    {
+      "before": ["c", "c", "l", "g"],
+      "commands": ["turboConsoleLog.commentAllLogMessages"]
+    },
+    {
+      "before": ["u", "l", "g"],
+      "commands": ["turboConsoleLog.uncommentAllLogMessages"]
+    },
+    {
+      "before": ["d", "l", "g"],
+      "commands": ["turboConsoleLog.deleteAllLogMessages"]
+    },
+    {
+      "before": ["g", "s"],
+      "commands": ["typescript.goToSourceDefinition"]
+    },
+    {
+      "before": ["l", "b"],
+      "commands": ["bookmarks.toggleLabeled"]
+    },
+    {
+      "before": ["s", "b"],
+      "commands": ["workbench.action.gotoSymbol"]
+    }
+  ],
+  "vim.timeout": 200,
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["c", "l", "g"],
+      "commands": ["turboConsoleLog.displayLogMessage"]
+    },
+    {
+      "before": ["c", "c", "l", "g"],
+      "commands": ["turboConsoleLog.commentAllLogMessages"]
+    },
+    {
+      "before": ["u", "l", "g"],
+      "commands": ["turboConsoleLog.uncommentAllLogMessages"]
+    },
+    {
+      "before": ["d", "l", "g"],
+      "commands": ["turboConsoleLog.deleteAllLogMessages"]
+    },
+    {
+      "before": ["g", "s"],
+      "commands": ["typescript.goToSourceDefinition"]
+    },
+    {
+      "before": ["l", "b"],
+      "commands": ["bookmarks.toggleLabeled"]
+    },
+    {
+      "before": ["s", "b"],
+      "commands": ["workbench.action.gotoSymbol"]
+    }
+  ],
+  "workbench.colorCustomizations": {},
+  "workbench.colorTheme": "Everforest Dark",
+  "workbench.editor.sharedViewState": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editorAssociations": {
+    "*.png": "default"
+  },
+  "workbench.list.horizontalScrolling": true,
+  "workbench.startupEditor": "terminal",
+  "workbench.tree.indent": 17,
+  "workbench.tree.renderIndentGuides": "always"
+}
